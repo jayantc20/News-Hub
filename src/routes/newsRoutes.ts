@@ -21,11 +21,11 @@ newsRoutes.get(
 );
 
 // Mark article as read
-newsRoutes.post("/read/:articleId", authenticateUser, markAsReadController);
+newsRoutes.post("/:articleId/read", authenticateUser, markAsReadController);
 
 // Mark article as favorite
 newsRoutes.post(
-  "/favorite/:articleId",
+  "/:articleId/favorite",
   authenticateUser,
   markAsFavoriteController
 );
