@@ -63,7 +63,7 @@ This project implements a News Application RESTful API using Node.js and Express
 
 ## Postman Collection
 
-You can import and test the APIs using the [Postman Collection](#).
+You can import and test the APIs using the [Postman Collection](https://github.com/jayantc20/News-Hub/blob/main/News-Hub.postman_collection.json).
 
 ### Importing the Collection in Postman
 
