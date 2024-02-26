@@ -8,6 +8,19 @@ This project implements a News Application RESTful API using Node.js and Express
 
 - Node.js version 14 or later
 - npm or yarn package manager
+- setup config folder
+
+config/development.json
+
+{
+  "PORT": 3000,
+  "NODE_ENV": "development",
+  "SECRET_KEY": <SECRET_KEY>,
+  "NEWS_API_KEY": <NEWS_API_KEY>,
+  "DEBUG": true,
+  "ExpiresIn": "7d"
+}
+
 
 ### Instructions
 
