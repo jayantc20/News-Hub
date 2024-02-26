@@ -12,7 +12,7 @@ This project implements a News Application RESTful API using Node.js and Express
 
 config/development.json
 
-{
+```{
   "PORT": 3000,
   "NODE_ENV": "development",
   "SECRET_KEY": <SECRET_KEY>,
@@ -20,6 +20,7 @@ config/development.json
   "DEBUG": true,
   "ExpiresIn": "7d"
 }
+```
 
 
 ### Instructions
